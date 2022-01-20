@@ -97,7 +97,7 @@ void AccountManager::Withdraw(void) {
 
 }
 
-/*예외처리로 구현하는 부분이 어디인지 자료에 조건으로 작성되어 있지 않아서  출금부분을 계좌번호 오류 예외로 구현했습니다.
+/*예외처리_ 출금부분을 계좌번호 오류 예외로 구현했습니다.
 void AccountManager::Withdraw(void) {
 	
 	cout << "\n" << "[출금]" << endl;
